@@ -32,6 +32,8 @@
           <!--<vmargs>-XX:+TraceClassLoading</vmargs>-->
           <!--<vmargs>-verbose:class</vmargs>-->
           <!--<vmargs>-XX:+TraceClassUnloading</vmargs>-->
+          <vmargs>-Xms2048m</vmargs>
+          <vmargs>-Xmx2048m</vmargs>
           <compileDeclaredNamespaceOnly>true</compileDeclaredNamespaceOnly>
           <testDeclareNamespacesOnly>true</testDeclareNamespacesOnly>
           <!-- Don't put AOT files in jar -->
